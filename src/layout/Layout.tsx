@@ -1,10 +1,12 @@
 import React from 'react'
 
+import Header from './components/Header/Header'
+
 import s from './Layout.module.scss'
 
 const Layout = ({ children }: any): React.ReactElement => (
     <div className={s.layout}>
-        <h2 className={s.layout__header}>Здесь будет header</h2>
+        <Header />
 
         <div className={s.layout__main}>{children}</div>
 
