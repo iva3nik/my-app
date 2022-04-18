@@ -5,9 +5,17 @@ $twColor: #1da1f2;
 $okColor: #f7931e;
 
 // SHADOWS
-$primaryBoxShadow: 0 2px 8px 0 #e7eafa;
+$primaryBoxShadow: 0 0 10px -1px #e7eafa;
 $insetBoxShadow: inset 0 2px 8px -5px #e7eafa;
 $flightPreviewBoxShadow: 0 0 27px -5px #bbc1c7;
 
 // АКТУАЛЬНЫЕ ЦВЕТА В ПРОЕКТЕ
-$mainBackColor: #073042;
+$mainBackColor: #0f1112;
+
+$blueNormal: rgb(38, 78, 223);
+$blueBright: rgb(59, 99, 242);
+$blueDark: rgb(26, 54, 154);
+
+$greyNormal: rgb(190, 200, 237);
+$greyBright: rgb(244, 238, 238);
+$greyDark: rgb(97, 107, 143);

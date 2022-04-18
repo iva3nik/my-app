@@ -15,7 +15,7 @@ export interface TSocialLinks {
 
 const socialLinks: Array<TSocialLinks> = [
   { name: 'Github', link: 'https://github.com/iva3nik', icon: github },
-  { name: 'Linkedid', link: 'https://www.linkedin.com/in/ivan-nikitin-71b038230/', icon: linkedin },
+  { name: 'Linkedin', link: 'https://www.linkedin.com/in/ivan-nikitin-71b038230/', icon: linkedin },
   { name: 'Instagram', link: 'https://www.instagram.com/iva3nik/', icon: instagram },
 ]
 
