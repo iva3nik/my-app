@@ -18,6 +18,7 @@
   cursor: pointer;
   user-select: none;
   transition: 0.3s linear;
+  z-index: 100;
 
   .button-spinner {
     width: 20px;
@@ -101,7 +102,6 @@
     border: 1px solid $greyNormal;
     border-radius: 6px;
     width: 154px;
-    height: 32px;
 
     &:hover {
       color: white;

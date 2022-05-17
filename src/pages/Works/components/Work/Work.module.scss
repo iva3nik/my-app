@@ -11,6 +11,7 @@
   transition: 300ms;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0));
   box-shadow: $primaryBoxShadow;
+  display: flex;
 
   &_back {
     --rotate-y: 180deg;
@@ -28,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
+    z-index: 0;
     p {
       transform: rotateY(180deg);
     }
