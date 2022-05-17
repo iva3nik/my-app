@@ -2,20 +2,9 @@ import React from 'react'
 
 import Work from './components/Work/Work'
 
-import diploma from '../../assets/images/Works/diploma.png'
+import { worksExample } from './const'
 
 import s from './Works.module.scss'
-
-import { TWorksExample } from '../../const/type'
-
-const worksExample: Array<TWorksExample> = [
-  {
-    name: 'Diploma',
-    photo: diploma,
-    description: 'diploma work',
-    stack: 'React.js / JavaScript / HTML / CSS / MongoDB / Node',
-  },
-]
 
 const Works: React.FC = () => {
   return (
