@@ -11,7 +11,7 @@ interface TItem {
   item: TWorksExample
 }
 
-const Work = (props: TItem) => {
+const Work: React.FC<TItem> = (props) => {
   const [isShowedInfo, setIsShowedInfo] = useState(false)
 
   const handleButton = () => {
