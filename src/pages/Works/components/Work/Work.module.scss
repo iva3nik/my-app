@@ -11,10 +11,19 @@
   transition: 300ms;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0));
   display: flex;
+  box-sizing: border-box;
+  &:hover {
+    cursor: pointer;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0)) scale(1.05);
+  }
 
   &_border {
     padding: 10px;
     border: 1px solid white;
+
+    &:hover {
+      transform: perspective(1000px) rotateY(var(--rotate-y, 0)) scale(1);
+    }
   }
 
   &_back {
@@ -48,6 +57,16 @@
 
     p {
       margin-bottom: 10px;
+      font-size: 14px;
+      &:last-of-type {
+        margin-bottom: 20px;
+      }
+
+      span {
+        margin-left: 8px;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
     }
 
     a {
@@ -59,11 +78,6 @@
         opacity: 0.6;
       }
     }
-  }
-
-  &:hover {
-    cursor: pointer;
-    transform: perspective(1000px) rotateY(var(--rotate-y, 0)) scale(1.05);
   }
 
   &__button {

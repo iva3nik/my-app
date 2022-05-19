@@ -24,14 +24,16 @@ const Work: React.FC<TItem> = (props) => {
         <section className={cn(s.work, s.work_back, s.work_border)}>
           <div className={s.work__content}>
             <div className={s.work__text}>
-              <p>Название проекта: {props.item.name}</p>
+              <p>
+                Название проекта: <span>{props.item.name}</span>
+              </p>
               <p>Описание проекта: {props.item.description}</p>
               <p>Стэк проекта: {props.item.stack}</p>
-              <a href={props.item.linkGithub} target='_blank'>
-                Переход к проекту на Github
-              </a>
               <a href={props.item.linkGP} target='_blank'>
                 Переход к проекту на Github Pages
+              </a>
+              <a href={props.item.linkGithub} target='_blank'>
+                Переход к проекту на Github
               </a>
             </div>
             <Button onClick={handleButton} type={'naked'} fullWidth={false} customClassName={s.work__button}>
