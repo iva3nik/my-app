@@ -1,3 +1,4 @@
+import { ReactNode } from 'react'
 import Works from '../pages/Works/Works'
 
 export interface TRouteExample {
