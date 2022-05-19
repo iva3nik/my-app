@@ -5,6 +5,8 @@ import Layout from './layout/Layout'
 import Works from './pages/Works/Works'
 import NotFound from './pages/NotFound/NotFound'
 
+import { appRoutes } from './router'
+
 import s from './App.module.scss'
 
 function App() {
@@ -12,8 +14,9 @@ function App() {
     <div className={s.app}>
       <Layout>
         <Routes>
-          <Route path='/works' element={<Works />} />
-          <Route path='*' element={<NotFound />} />
+          {appRoutes.map((route) => (
+            <Route key={route.path} path={route.path} element={<route.element />} />
+          ))}
         </Routes>
       </Layout>
     </div>
