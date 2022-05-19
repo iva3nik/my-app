@@ -1,5 +1,5 @@
 .notfound {
-  width: 100%;
+  width: 1024;
   height: 627px;
 
   &__image {
@@ -7,6 +7,12 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .notfound {
+    width: 100%;
   }
 }
 
