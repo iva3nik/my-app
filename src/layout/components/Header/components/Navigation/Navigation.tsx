@@ -2,20 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import cn from 'classnames'
 
+import { navLinks } from '../../../../../router'
+
 import s from './Navigation.module.scss'
-
-export interface TNavLinks {
-  to: string
-  title: string
-}
-
-const navLinks: Array<TNavLinks> = [
-  { to: '/', title: 'About me' },
-  { to: '/works', title: 'Works' },
-  { to: '/experience', title: 'Experience' },
-  { to: '/places', title: 'Places' },
-  { to: '/contacts', title: 'Contacts' },
-]
 
 const Navigation: React.FC = () => {
   return (

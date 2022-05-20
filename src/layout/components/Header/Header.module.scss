@@ -1,14 +1,17 @@
+@import '../../../style/scss/variables/vars';
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $greyLine;
 }
 
 @media screen and (max-width: 767px) {
-    .header {
-        &__logo {
-            width: 200px;
-            height: 56.4px;
-        }
+  .header {
+    &__logo {
+      width: 200px;
+      height: 56.4px;
     }
+  }
 }
