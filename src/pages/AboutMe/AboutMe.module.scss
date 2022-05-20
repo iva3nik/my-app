@@ -2,20 +2,23 @@
 
 .about {
   width: 100%;
-  height: 800px;
-  display: flex;
-  gap: 50px;
+  align-self: start;
+
+  &__container {
+    padding: 10px 0;
+    display: flex;
+    gap: 50px;
+  }
 
   &__photo {
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
+    height: 800px;
+    width: 380px;
+    object-fit: cover;
     object-position: center;
   }
 
   &__info {
     text-align: left;
-    font-size: 16px;
 
     p {
       margin-bottom: 16px;
@@ -33,6 +36,61 @@
 
       span {
         text-decoration: underline;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    &__photo {
+      height: 650px;
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .about {
+    &__container {
+      gap: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    &__container {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__photo {
+      height: 500px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about {
+    &__info {
+      p {
+        margin-bottom: 14px;
+        font-size: 12px;
+        line-height: 16px;
+
+        &:last-of-type {
+          margin: 22px 0 0 0;
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        span {
+          text-decoration: underline;
+          line-height: 30px;
+        }
       }
     }
   }
