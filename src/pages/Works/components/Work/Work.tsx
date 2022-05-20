@@ -12,7 +12,7 @@ interface TItem {
 }
 
 const Work: React.FC<TItem> = (props) => {
-  const [isShowedInfo, setIsShowedInfo] = useState(false)
+  const [isShowedInfo, setIsShowedInfo] = useState<boolean>(false)
 
   const handleButton = () => {
     setIsShowedInfo(!isShowedInfo)

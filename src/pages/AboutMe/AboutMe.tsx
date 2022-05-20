@@ -7,7 +7,7 @@ import my_photo_big from '../../assets/images/AboutMe/my_photo_big.jpeg'
 import s from './AboutMe.module.scss'
 
 const AboutMe: React.FC = () => {
-  const [width, setWidth] = useState(window.innerWidth)
+  const [width, setWidth] = useState<number>(window.innerWidth)
 
   const updateWidth = () => setWidth(window.innerWidth)
 
