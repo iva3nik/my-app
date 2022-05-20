@@ -3,9 +3,9 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    gap: 10px;
   }
   &__link {
-    margin-left: 10px;
     transition: 0.3s linear;
     color: #91d7e3;
 

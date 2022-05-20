@@ -15,6 +15,7 @@
     width: 380px;
     object-fit: cover;
     object-position: center;
+    border-radius: 8px;
   }
 
   &__info {
@@ -69,6 +70,14 @@
     &__photo {
       height: 500px;
       width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    &__photo {
+      height: 400px;
     }
   }
 }
