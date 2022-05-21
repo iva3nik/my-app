@@ -6,7 +6,7 @@ export interface TExperience {
   description: string
 }
 
-export const experiene: Array<TExperience> = [
+export const experience: Array<TExperience> = [
   {
     from: 'Декабрь 2021',
     till: 'Апрель 2022',

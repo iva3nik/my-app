@@ -1,0 +1,44 @@
+@import '../../style/scss/variables/vars';
+
+.experience {
+  align-self: start;
+
+  &__title {
+    margin: 10px 0 30px;
+  }
+
+  &__table {
+    border: 1px solid $greyLine;
+  }
+
+  &__line {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    border-bottom: 1px solid $greyLine;
+    &:last-of-type {
+      border: none;
+    }
+  }
+
+  &__data {
+    width: 250px;
+    flex-shrink: 0;
+    text-align: left;
+  }
+
+  &__info {
+    text-align: left;
+  }
+
+  &__subtitle {
+    font-family: 'Lato', serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 16px;
+    &:last-of-type {
+      margin-bottom: 5px;
+    }
+  }
+}
