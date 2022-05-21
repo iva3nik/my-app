@@ -1,6 +1,7 @@
 import Works from '../pages/Works/Works'
 import NotFound from '../pages/NotFound/NotFound'
 import AboutMe from '../pages/AboutMe/AboutMe'
+import MyExperience from '../pages/MyExprerience/MyExperience'
 
 export interface TRouteExample {
   path: string
@@ -15,6 +16,7 @@ export interface TNavLinks {
 export const appRoutes: Array<TRouteExample> = [
   { path: '/', element: AboutMe },
   { path: '/works', element: Works },
+  { path: '/experience', element: MyExperience },
   { path: '*', element: NotFound },
 ]
 
