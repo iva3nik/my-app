@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.4e7f5ea3.css",
+    "main.js": "/my-app/static/js/main.3f8da4f3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/my_photo_big.jpeg": "/my-app/static/media/my_photo_big.db62ed6109e61fb3e3db.jpeg",
+    "static/media/my_photo.png": "/my-app/static/media/my_photo.41920261c7a1bbbec30c.png",
+    "static/media/russian-travel.png": "/my-app/static/media/russian-travel.fef7db856c9275773711.png",
+    "static/media/kaspersky.png": "/my-app/static/media/kaspersky.7ff88e5bb00c8835e481.png",
+    "static/media/krayt.png": "/my-app/static/media/krayt.421455a4d3fd4a1cb4aa.png",
+    "static/media/mesto.png": "/my-app/static/media/mesto.8329ef6b4c50604d4873.png",
+    "static/media/paraweb.png": "/my-app/static/media/paraweb.4081df293fe6c57fe5c7.png",
+    "static/media/Lato-Semibold.woff": "/my-app/static/media/Lato-Semibold.c66465590541129e82d3.woff",
+    "static/media/Lato-Regular.woff": "/my-app/static/media/Lato-Regular.1d2ca94dfba6f8d87cfd.woff",
+    "static/media/how-to-learn.png": "/my-app/static/media/how-to-learn.0205c68e4875e7bae378.png",
+    "static/media/stat4market.png": "/my-app/static/media/stat4market.7b96dcd34402947c0ad3.png",
+    "static/media/Lato-Semibold.woff2": "/my-app/static/media/Lato-Semibold.a6069540692725c247f1.woff2",
+    "static/media/Lato-Regular.woff2": "/my-app/static/media/Lato-Regular.75614cfcfedd509b1f7a.woff2",
+    "static/media/Raleway-Regular.ttf": "/my-app/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
+    "static/media/Raleway-Bold.ttf": "/my-app/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
+    "static/media/Raleway-Black.ttf": "/my-app/static/media/Raleway-Black.eef1ff812c4eced3a276.ttf",
+    "static/media/page_not_found.png": "/my-app/static/media/page_not_found.3d5e5595916d37f4867f.png",
+    "static/media/ten-users.png": "/my-app/static/media/ten-users.82b62de151e6c92f9eb4.png",
+    "static/media/instagram_icon.png": "/my-app/static/media/instagram_icon.a19ba3cfabc05d0ef534.png",
+    "static/media/cubes.png": "/my-app/static/media/cubes.3f5dba10fb25b97f6c2d.png",
+    "static/media/diploma.png": "/my-app/static/media/diploma.3516fcdc1e7649e04118.png",
+    "static/media/linkedin_icon.png": "/my-app/static/media/linkedin_icon.fe0986e7807b4381a8cb.png",
+    "static/media/github_icon.png": "/my-app/static/media/github_icon.a855c3975c028d8069f5.png",
+    "static/media/Ivan_Nikitin.svg": "/my-app/static/media/Ivan_Nikitin.3041aa2993b33666a5eafa3fdbe27ad7.svg",
+    "index.html": "/my-app/index.html",
+    "main.4e7f5ea3.css.map": "/my-app/static/css/main.4e7f5ea3.css.map",
+    "main.3f8da4f3.js.map": "/my-app/static/js/main.3f8da4f3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e7f5ea3.css",
+    "static/js/main.3f8da4f3.js"
+  ]
+}
