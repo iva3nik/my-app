@@ -1,4 +1,5 @@
 import React from 'react'
+import cn from 'classnames'
 
 import { contacts } from './const'
 
@@ -6,7 +7,7 @@ import s from './Contacts.module.scss'
 
 const Contacts: React.FC = () => {
   return (
-    <section className={s.contacts}>
+    <section className={cn(s.contacts, 'main-container')}>
       <h1 className={s.contacts__title}>
         Вы можете связаться со мной <br /> одним из нижеперечисленных способов:
       </h1>
