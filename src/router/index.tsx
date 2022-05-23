@@ -3,6 +3,7 @@ import NotFound from '../pages/NotFound/NotFound'
 import AboutMe from '../pages/AboutMe/AboutMe'
 import MyExperience from '../pages/MyExprerience/MyExperience'
 import Contacts from '../pages/Contacts/Contacts'
+import TestBlock from '../pages/TestBlock/TestBlock'
 
 export interface TRouteExample {
   path: string
@@ -19,6 +20,7 @@ export const appRoutes: Array<TRouteExample> = [
   { path: '/works', element: Works },
   { path: '/experience', element: MyExperience },
   { path: '/contacts', element: Contacts },
+  { path: '/tests', element: TestBlock },
   { path: '*', element: NotFound },
 ]
 
