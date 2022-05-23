@@ -28,4 +28,5 @@ export const navLinks: Array<TNavLinks> = [
   { to: '/experience', title: 'Опыт работы' },
   { to: '/contacts', title: 'Контакты' },
   { to: '/places', title: 'NotFound' },
+  { to: '/tests', title: 'Test block' },
 ]
