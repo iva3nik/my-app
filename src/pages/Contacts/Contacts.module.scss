@@ -1,0 +1,19 @@
+.contacts {
+  align-self: start;
+
+  &__title {
+    margin: 32px 0 40px;
+  }
+
+  &__list {
+    width: 340px;
+    margin: 0 auto;
+  }
+
+  &__line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+}
